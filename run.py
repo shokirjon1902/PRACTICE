@@ -1,4 +1,4 @@
-a = 100123
+a = 1001
 print("a", a)
 
 message = "Hello world"
