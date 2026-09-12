@@ -46,3 +46,17 @@ print(result3)
 
 result4 = give_greet("Justin")
 print(result4)
+
+
+print("=======SCOPE=========")
+b = 100
+
+
+def calculate(a):
+    c = a * b
+    print(f" The C value:", c)
+
+
+# CALL
+result5 = calculate(5)
+print(result5)
