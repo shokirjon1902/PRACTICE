@@ -12,7 +12,7 @@ print("==========DEFINE vs CALL===========")
 # Instead of block {} in JAVA , Python uses indentation!
 
 
-# DEFINE - built
+# DEFINE - built  parametr
 
 def greet(a):
     print(f"how do you do, {a}")
@@ -23,9 +23,26 @@ def greeting(b):
     return f"Hey {b}"
 
 
-# CALL - execute
+# CALL - execute  argument
 result1 = greet('John')
 print(result1)
 
 result2 = greeting("Justin")
 print(result2)
+
+
+print("====== Keyword & default arguments ========")
+
+# Define
+
+
+def give_greet(name, age=28):
+    print("give_greet is executed")
+    return f"Hi my name is {name} I am {age} years old!"
+
+
+result3 = give_greet(name="JOHN", age=22)
+print(result3)
+
+result4 = give_greet("Justin")
+print(result4)
